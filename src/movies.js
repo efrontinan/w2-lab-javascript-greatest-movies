@@ -133,7 +133,8 @@ function turnHoursToMinutes(moviesArray) {
 
         // Sumo los valores de la duración
         eachMovie.duration = eachMovie.duration.reduce((acc, eachDuration) => {
-             return acc + eachDuration},0)
+             return acc + eachDuration
+            },0)
 
         console.log('la duración sumada es', '---->', eachMovie.duration)
 
@@ -154,4 +155,10 @@ function turnHoursToMinutes(moviesArray) {
 }
 
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
-function bestYearAvg(moviesArray) {}
+function bestYearAvg(moviesArray) {
+
+    //Sacar un array con todos los años y su media y organizar de mejor media a peor y retornar la mejor posición
+
+
+
+}
